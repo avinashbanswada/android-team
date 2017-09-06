@@ -1,9 +1,9 @@
-# Some guide lines to go through by a newly on boarded android resource before gets into action :) 
+# Guide lines to a newly on-boarded android resource. 
 This document provides basic guide lines to the newly on boarded android resource which helps him in getting the things ready for journey of development @ OC Tanner.
-######After going through this document one should be able to do the below:
-    -> Should have the setup ready on his system.
-    -> Should have access to all required apps.
-    -> Should be ready to start development.
+###### After going through this document one should be able to do the below:
+* Should have the setup ready on his system.
+* Should have access to all required apps.
+* Should be ready to start development.
 
 ## Environment Setup
     Android Studio
@@ -29,9 +29,9 @@ This document provides basic guide lines to the newly on boarded android resourc
           Linux (https://slack.com/downloads/linux)
         - On installtion you can connect to OC Tanner slack team by connecting to tannerlabs.slack.com.
           Request invitation for the active android channels from below mentioned users.
-          1) Mr.Pratap Talla(Pratap.Talla@octanner.com)
-          2) Mr.Kiran Kumar Chitturi(Kiran.Chitturi@octanner.com)
-          3) Mr. Avinash Banswada(Avinash.Banswada@octanner.com)
+          -> Mr.Pratap Talla(Pratap.Talla@octanner.com)
+          -> Mr.Kiran Kumar Chitturi(Kiran.Chitturi@octanner.com)
+          -> Mr. Avinash Banswada(Avinash.Banswada@octanner.com)
       
      
         
