@@ -1,18 +1,8 @@
 # The Practice of Android @ OCTanner
 This is how we work and live our craft.
 
-## Tools
-    Andorid Studio
-        - Android Studio is the official Integrated Development Environment (IDE) for Android app development, based on IntelliJ IDEA.
-    Lint
-        - The lint tool checks Android project source files for potential bugs and optimization improvements for correctness, security, performance, usability, accessibility, and internationalization.
-    Jenkins
-        - Jenkins is a software that allows continuous integration.
-    Jococo
-        - Java Code Coverage Library
-    Fastlane
-        - fastlane is the tool to release Android app and It handles all tedious tasks, like generating screenshots, dealing with code signing, and releasing application.
-
+## Onboarding of New Developers
+> We follow [the onboarding of new developers](./guidelines-new-onboard-resource.md) process to enable new developer to start productive work swiftly.
 ## Code Reviews
 
 > We use Github Pull Requests to drive face-to-face code reviews by following [code review checklist](./code-review-checklist.md). We expect everyone to submit pull requests every day or two at the least. One team member is assigned to conduct all code reviews on a given weekday.
