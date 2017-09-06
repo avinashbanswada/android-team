@@ -15,13 +15,13 @@ This is how we work and live our craft.
 
 ## Code Reviews
 
-> We use Github Pull Requests to drive face-to-face code reviews. We expect everyone to submit pull requests every day or two at the least. One team member is assigned to conduct all code reviews on a given weekday.
+> We use Github Pull Requests to drive face-to-face code reviews by following [code review checklist](./code-review-checklist). We expect everyone to submit pull requests every day or two at the least. One team member is assigned to conduct all code reviews on a given weekday.
 
 We believe that code reviews are an essential tool for keeping code quality high. Everything we do gets code reviewed. We use Github, and have pull requests be the only way that code gets into our repository. We have a more detailed document showing all of the steps of our code reviews, but the essentials include a face-to-face review of the code, and an expectation that we will discuss both style and approach, in addition to syntax, structure, and other mechanics.
 
 ## Coding Style
 
-> We follow AOSP Java Code Style for android java code and our[O.C. Tanner style guide for android code](./style-guide.md). Any deviations are specified in our style guide amendments.
+> We follow AOSP Java Code Style for android java code and our [O.C. Tanner style guide for android code](./style-guide.md). Any deviations are specified in our style guide amendments.
 
 We believe the best way to keep code readable among a team is to establish a us set coding style. Obviously such a style will involve compromises, but the outcome is worth the effort when everybody can read code written by others.
 
