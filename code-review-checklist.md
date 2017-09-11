@@ -24,12 +24,36 @@ A peer code reviewer need to ensure the code has sufficient and required unit te
 
 A peer code reviewer need to ensure the code is easy to debug in non developer environment. This may relate to few things 
 * There needs to be enough logging in the code. Code needs provide enough logging to work in debugging mode for application.
+    
+    > Example: 
+    > 
+    > `DLog.d("Some debugging information " + data);`
+    
 * There needs to be enough comments in the code.
+    > Example: 
+      
+       `/* If you want to send messages to this application instance or
+                manage this apps subscriptions on the server side, send the
+                Instance ID token to app server.*/
+                
+           mRxApiService.registerDevice(Long.valueOf(userInfo.getId()));
+        `
+        
 * There needs to be enough monitoring related code.
 
 ## Code Documentation
 
 Writing code comments is helpful however not always necessary. Sometimes the code is not self explanatory, or does something un-usual. It needs to be well documented.
+
+> Example:
+
+``` 
+/*Stop trying to load next items if the param next in both the response is null */
+
+if (mNextApprovalDetails == null && mNextPresentDetails == null) {
+        isLastPage = true;
+    }
+```
 
 ## Code Indentation And Readability
 
@@ -46,6 +70,12 @@ Exception handling code is often ignored in critical timelines. A code reviewer 
 ## Logging Key Attributes For Debugging
 
 Debugging information is important to support and maintain applications. Logging required key attributes makes the job of dev ops and support team easy. Developer and Code reviewer needs to ensure that all key attributes are being logged.
+
+> Example:
+
+`
+DLog.i("Token created at:" + createdAt + " expiresIn: " + expiresIn);
+`
 
 ## Eliminate Unwanted Code And Libraries If Not Used
 
