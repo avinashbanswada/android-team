@@ -136,3 +136,11 @@ Most of the developers are not writing multi threading code and concurrent appli
 
 It is not easy to spot a design pattern in a bad code, however an experience programmer can easily suggest a better approach provided enough knowledge of the software. 
 Try to spot common design pattern application on existing code and see how you can improve it. Use of design pattern improves maintainability of source code.
+
+
+#Code review metrics
+
+* Time in review- Determining how much time each developer spends on code review is a measure of how involved each developer on the team is.
+* Defect count- How many defects were recorded of the review session can count towards effectiveness of code review as well?
+* Percent of code reviewed- Every developer on the team needs to review each other’s code. The percent of code reviewed per developer helps with accountability in the review process.
+> [Reference](https://www.owasp.org/index.php/Code_Review_Metrics)
