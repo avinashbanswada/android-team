@@ -26,6 +26,8 @@ We believe the best way to keep code readable among a team is to establish a us 
     UI Automator
         - A UI testing framework suitable for cross-app functional UI testing between both system and installed apps.
 
+> [QA testing](./qa-testing.md) performs both autmation and manual testing on android apps. 
+
 We believe testing is an essential tool for developing reliable code and keeping it in shape to allow for confidently making changes to our code in the future.
 
 ## Logging
